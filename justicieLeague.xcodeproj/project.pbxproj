@@ -13,6 +13,7 @@
 		B27E03D22D133F4A008DBF1B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B27E03D12D133F4A008DBF1B /* Base */; };
 		B27E03D42D133F4D008DBF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27E03D32D133F4D008DBF1B /* Assets.xcassets */; };
 		B27E03D72D133F4D008DBF1B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B27E03D62D133F4D008DBF1B /* Base */; };
+		B27E03E32D13567B008DBF1B /* SuperheroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03E22D13567B008DBF1B /* SuperheroResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B27E03D32D133F4D008DBF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B27E03D62D133F4D008DBF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B27E03D82D133F4D008DBF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27E03E22D13567B008DBF1B /* SuperheroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		B27E03C92D133F4A008DBF1B /* justicieLeague */ = {
 			isa = PBXGroup;
 			children = (
+				B27E03E12D134052008DBF1B /* Entities */,
+				B27E03E02D134044008DBF1B /* ViewControllers */,
+				B27E03DF2D133FCE008DBF1B /* Utils */,
+				B27E03DE2D133FB8008DBF1B /* Views */,
 				B27E03CA2D133F4A008DBF1B /* AppDelegate.swift */,
 				B27E03CC2D133F4A008DBF1B /* SceneDelegate.swift */,
-				B27E03CE2D133F4A008DBF1B /* ViewController.swift */,
 				B27E03D02D133F4A008DBF1B /* Main.storyboard */,
 				B27E03D32D133F4D008DBF1B /* Assets.xcassets */,
 				B27E03D52D133F4D008DBF1B /* LaunchScreen.storyboard */,
 				B27E03D82D133F4D008DBF1B /* Info.plist */,
 			);
 			path = justicieLeague;
+			sourceTree = "<group>";
+		};
+		B27E03DE2D133FB8008DBF1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B27E03DF2D133FCE008DBF1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B27E03E02D134044008DBF1B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B27E03CE2D133F4A008DBF1B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B27E03E12D134052008DBF1B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B27E03E22D13567B008DBF1B /* SuperheroResponse.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +175,7 @@
 			files = (
 				B27E03CF2D133F4A008DBF1B /* ViewController.swift in Sources */,
 				B27E03CB2D133F4A008DBF1B /* AppDelegate.swift in Sources */,
+				B27E03E32D13567B008DBF1B /* SuperheroResponse.swift in Sources */,
 				B27E03CD2D133F4A008DBF1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
