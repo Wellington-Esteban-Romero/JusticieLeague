@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B902D057-91B4-40E0-9875-7893B8ECCCD9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4306A8A3-327A-49C7-807B-6F15CB28939D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "justicieLeague/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4306A8A3-327A-49C7-807B-6F15CB28939D - da87844e6bd366e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in justicieLeague.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/ViewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "4306A8A3-327A-49C7-807B-6F15CB28939D - 8f6bdb922727f40a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in justicieLeague.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/ViewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "4306A8A3-327A-49C7-807B-6F15CB28939D - d119d88df61eefc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in justicieLeague.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/ViewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "4306A8A3-327A-49C7-807B-6F15CB28939D - 25e899d4754f52fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in justicieLeague.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/ViewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA1D447E-3A89-4F6A-808D-4B0C0B40E662"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "justicieLeague/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D081BF6B-739A-4149-A8CB-770F68A329CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "justicieLeague/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1DC4A25-3C83-4B66-AFE6-C8221A1DF4B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "justicieLeague/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2770BC1D-EB83-44FE-98C9-311F5BF2353E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "justicieLeague/Data/SuperheroProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "findSuperheroesBy(name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2770BC1D-EB83-44FE-98C9-311F5BF2353E - f9cd3ca1c0f1db2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static justicieLeague.SuperheroProvider.findSuperheroesBy(name: Swift.String) async throws -&gt; Swift.Array&lt;justicieLeague.SuperheroItem&gt;"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/Data/SuperheroProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+               <Location
+                  uuid = "2770BC1D-EB83-44FE-98C9-311F5BF2353E - 8f4df6a9b271e7ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for static justicieLeague.SuperheroProvider.findSuperheroesBy(name: Swift.String) async throws -&gt; Swift.Array&lt;justicieLeague.SuperheroItem&gt;"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/Data/SuperheroProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+               <Location
+                  uuid = "2770BC1D-EB83-44FE-98C9-311F5BF2353E - 5016566878199f51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static justicieLeague.SuperheroProvider.findSuperheroesBy(name: Swift.String) async throws -&gt; Swift.Array&lt;justicieLeague.SuperheroItem&gt;"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/Data/SuperheroProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+               <Location
+                  uuid = "2770BC1D-EB83-44FE-98C9-311F5BF2353E - ff453af3dc35b152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for static justicieLeague.SuperheroProvider.findSuperheroesBy(name: Swift.String) async throws -&gt; Swift.Array&lt;justicieLeague.SuperheroItem&gt;"
+                  moduleName = "justicieLeague"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tardes/xCode/justicieLeague/justicieLeague/Data/SuperheroProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

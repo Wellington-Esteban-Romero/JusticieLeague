@@ -7,22 +7,22 @@
 
 import Foundation
 
-struct SuperheroResponse {
+struct SuperheroResponse: Codable {
     let response: String
-    let results_For: String
+    //let results_For: String
     let results: [SuperheroItem]
     
-    enum CodingKeys: String, CodingKey {
+    /*enum CodingKeys: String, CodingKey {
         case results_For = "results-For"
-    }
+    }*/
 }
 
-struct SuperheroItem {
+struct SuperheroItem: Codable {
     let id: String
     let name: String
     let image: SuperheroImage
 }
 
-struct SuperheroImage {
+struct SuperheroImage: Codable {
     let url: String
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22B67772D2DA0AC00710CFD /* SuperheroProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B67762D2DA0AC00710CFD /* SuperheroProvider.swift */; };
+		B22B677A2D2DAE0E00710CFD /* SuperheroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B67792D2DAE0E00710CFD /* SuperheroViewCell.swift */; };
 		B27E03CB2D133F4A008DBF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03CA2D133F4A008DBF1B /* AppDelegate.swift */; };
 		B27E03CD2D133F4A008DBF1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03CC2D133F4A008DBF1B /* SceneDelegate.swift */; };
 		B27E03CF2D133F4A008DBF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03CE2D133F4A008DBF1B /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22B67762D2DA0AC00710CFD /* SuperheroProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroProvider.swift; sourceTree = "<group>"; };
+		B22B67792D2DAE0E00710CFD /* SuperheroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewCell.swift; sourceTree = "<group>"; };
 		B27E03C72D133F4A008DBF1B /* justicieLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justicieLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27E03CA2D133F4A008DBF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27E03CC2D133F4A008DBF1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22B67782D2DAD5F00710CFD /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B22B67792D2DAE0E00710CFD /* SuperheroViewCell.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
 		B27E03BE2D133F4A008DBF1B = {
 			isa = PBXGroup;
 			children = (
@@ -58,15 +70,14 @@
 		B27E03C92D133F4A008DBF1B /* justicieLeague */ = {
 			isa = PBXGroup;
 			children = (
-				B27E03E12D134052008DBF1B /* Entities */,
+				B27E03E12D134052008DBF1B /* Data */,
 				B27E03E02D134044008DBF1B /* ViewControllers */,
 				B27E03DF2D133FCE008DBF1B /* Utils */,
 				B27E03DE2D133FB8008DBF1B /* Views */,
+				B22B67782D2DAD5F00710CFD /* ViewCells */,
 				B27E03CA2D133F4A008DBF1B /* AppDelegate.swift */,
 				B27E03CC2D133F4A008DBF1B /* SceneDelegate.swift */,
-				B27E03D02D133F4A008DBF1B /* Main.storyboard */,
 				B27E03D32D133F4D008DBF1B /* Assets.xcassets */,
-				B27E03D52D133F4D008DBF1B /* LaunchScreen.storyboard */,
 				B27E03D82D133F4D008DBF1B /* Info.plist */,
 			);
 			path = justicieLeague;
@@ -75,6 +86,8 @@
 		B27E03DE2D133FB8008DBF1B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B27E03D52D133F4D008DBF1B /* LaunchScreen.storyboard */,
+				B27E03D02D133F4A008DBF1B /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,12 +107,13 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		B27E03E12D134052008DBF1B /* Entities */ = {
+		B27E03E12D134052008DBF1B /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				B27E03E22D13567B008DBF1B /* SuperheroResponse.swift */,
+				B22B67762D2DA0AC00710CFD /* SuperheroProvider.swift */,
 			);
-			path = Entities;
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +190,9 @@
 				B27E03CF2D133F4A008DBF1B /* ViewController.swift in Sources */,
 				B27E03CB2D133F4A008DBF1B /* AppDelegate.swift in Sources */,
 				B27E03E32D13567B008DBF1B /* SuperheroResponse.swift in Sources */,
+				B22B67772D2DA0AC00710CFD /* SuperheroProvider.swift in Sources */,
 				B27E03CD2D133F4A008DBF1B /* SceneDelegate.swift in Sources */,
+				B22B677A2D2DAE0E00710CFD /* SuperheroViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
