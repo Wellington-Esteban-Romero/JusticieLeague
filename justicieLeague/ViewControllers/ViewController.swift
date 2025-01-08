@@ -34,7 +34,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SuperheroViewCell
-        cell.nameLabel.text = list[indexPath.item].name
+        cell.render(superhero: list[indexPath.item])
         return cell
     }
 

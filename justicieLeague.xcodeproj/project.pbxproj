@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B22B67772D2DA0AC00710CFD /* SuperheroProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B67762D2DA0AC00710CFD /* SuperheroProvider.swift */; };
 		B22B677A2D2DAE0E00710CFD /* SuperheroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B67792D2DAE0E00710CFD /* SuperheroViewCell.swift */; };
+		B22B677C2D2DB93400710CFD /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B677B2D2DB93400710CFD /* UIImageViewExtensions.swift */; };
 		B27E03CB2D133F4A008DBF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03CA2D133F4A008DBF1B /* AppDelegate.swift */; };
 		B27E03CD2D133F4A008DBF1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03CC2D133F4A008DBF1B /* SceneDelegate.swift */; };
 		B27E03CF2D133F4A008DBF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E03CE2D133F4A008DBF1B /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		B22B67762D2DA0AC00710CFD /* SuperheroProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroProvider.swift; sourceTree = "<group>"; };
 		B22B67792D2DAE0E00710CFD /* SuperheroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewCell.swift; sourceTree = "<group>"; };
+		B22B677B2D2DB93400710CFD /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		B27E03C72D133F4A008DBF1B /* justicieLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justicieLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27E03CA2D133F4A008DBF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27E03CC2D133F4A008DBF1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		B27E03DF2D133FCE008DBF1B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B22B677B2D2DB93400710CFD /* UIImageViewExtensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				B27E03CF2D133F4A008DBF1B /* ViewController.swift in Sources */,
 				B27E03CB2D133F4A008DBF1B /* AppDelegate.swift in Sources */,
+				B22B677C2D2DB93400710CFD /* UIImageViewExtensions.swift in Sources */,
 				B27E03E32D13567B008DBF1B /* SuperheroResponse.swift in Sources */,
 				B22B67772D2DA0AC00710CFD /* SuperheroProvider.swift in Sources */,
 				B27E03CD2D133F4A008DBF1B /* SceneDelegate.swift in Sources */,
