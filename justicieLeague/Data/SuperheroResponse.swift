@@ -9,18 +9,30 @@ import Foundation
 
 struct SuperheroResponse: Codable {
     let response: String
-    //let results_For: String
     let results: [SuperheroItem]
     
-    /*enum CodingKeys: String, CodingKey {
-        case results_For = "results-For"
-    }*/
+
 }
 
 struct SuperheroItem: Codable {
     let id: String
     let name: String
     let image: SuperheroImage
+}
+
+struct Biography: Codable {
+    let fullName: String
+    //let alterEgos: String
+    let publisher: String
+    let alignment: String
+    let placeOfBirth: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case publisher, alignment
+        case fullName = "full-name"
+        //case alterEgos = "alter-egos"
+        case placeOfBirth = "place-of-birth"
+    }
 }
 
 struct SuperheroImage: Codable {
