@@ -16,6 +16,7 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //navigationItem.title = superhero.name
         nameLabel.text = superhero.name
         avatarImageView.loadFrom(url: superhero.image.url)
     }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate {
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -17,15 +17,14 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //tableView.dataSource = self
-        Task {
-            do {
-                list =  try await SuperheroProvider.findSuperheroesBy(name: "a")
-                tableView.reloadData()
-            } catch {
-                print(error)
-            }
-        }
+        tableView.dataSource = self
+        
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate = self
+        navigationItem.searchController = searchController
+        
+        finSuperheroBy(name: "a")
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,12 +37,31 @@ class ViewController: UIViewController, UITableViewDataSource {
         return cell
     }
     
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        if let query = searchBar.text {
+            finSuperheroBy(name: query)
+        } else {
+            finSuperheroBy(name: "a")
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let detailViewController =  segue.destination as! DetailViewController
         let indexPath = tableView.indexPathForSelectedRow!
         let superhero = list[indexPath.row]
         detailViewController.superhero = superhero
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func finSuperheroBy(name: String) {
+        Task {
+            do {
+                list =  try await SuperheroProvider.findSuperheroesBy(name: name)
+                tableView.reloadData()
+            } catch {
+                print(error)
+            }
+        }
     }
 
 
